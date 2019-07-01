@@ -1,0 +1,17 @@
+{
+  "name": "lambda-utils",
+  "version": "1.0.0",
+  "description": "Funções para serem utilizadas nas lambdas do NovoERP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Fagundes Marques <michael.fagundes@avancoinfo.com.br>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.4.1",
+    "aws-sdk": "^2.63.0",
+    "js-yaml": "^3.8.4",
+    "lodash": "^4.17.10"
+  }
+}
