@@ -8,7 +8,7 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 const async = require('async');
 
-const AMBIENTE = (process.env.NODE_ENV || process.env.STAGE || "").replace("development", "dev");
+const AMBIENTE = (process.env.API_ENV || process.env.NODE_ENV || process.env.STAGE || "").replace("development", "dev");
 
 exports.log = function (info, msg) {
     console.log(msg ? msg : 'Received event:', JSON.stringify(info, null, 2));
